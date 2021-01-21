@@ -4,7 +4,7 @@ mkdir syslog_tmp
 cd syslog_tmp
 
 echo "====== Downloading remote_syslog2 ======"
-curl -SLO https://github.com/papertrail/remote_syslog2/releases/download/v0.14/remote_syslog_linux_amd64.tar.gz
+curl -SLO https://github.com/papertrail/remote_syslog2/releases/download/v0.20/remote_syslog_linux_amd64.tar.gz
 wait
 tar xvf remote_syslog_linux_amd64.tar.gz
 cd remote_syslog
